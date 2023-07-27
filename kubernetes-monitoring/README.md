@@ -29,3 +29,5 @@
     2. `kubectl -n prometheus port-forward service/prometheus-operator-grafana 8003:80`
         1. Узнаем пароль Администратора - `kubectl -n prometheus get secret prometheus-operator-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo`
         2. http://localhost:8003/login
+13. Пример скриншота из Grafana
+![alt text](Screenshot_grafana.png "Grafana")
