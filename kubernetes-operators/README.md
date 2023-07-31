@@ -14,3 +14,6 @@
 5. Попробовал поднять pod c mysql-operator:
     1. `kubectl apply -f deploy/service-account.yml`
     2. `kubectl apply -f deploy/deploy-operator.yml`
+    3. `kubectl apply -f deploy/role.yml`
+    4. `kubectl apply -f deploy/role-binding.yml`
+
